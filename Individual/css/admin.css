@@ -619,7 +619,7 @@ html {
 .layui-layout-admin .layui-header .layui-nav .layui-this:after,
 .layui-layout-admin .layui-header .layui-nav-bar {
 	height: 2px;
-	background-color: #20222A
+	background-color: #1E9FFF
 }
 
 .layui-layout-admin .layui-logo {
@@ -1216,6 +1216,7 @@ html {
 	width: 400px;
 	height: 400px;
 }
+
 /*返回顶部*/
 .t-right-bar {
     position: fixed;
@@ -1255,7 +1256,7 @@ html {
     color: #fff
 }
 .admin-pages-tags >span{
-	border: 1px solid rgba(0,0,0,.2);
+	border: 1px solid #1E9FFF;
 	color: #666;
 	height: 24px;
 	border-radius:12px ;
@@ -1264,9 +1265,7 @@ html {
 }
 .admin-pages-tags > span:hover{
 	/*background-color: #1E9FFF;*/
-	background: -webkit-linear-gradient(
-	left,#6041e0,#ac5cff
-	);
+	background: #1E9FFF;
 	border-color: rgba(0,0,0,0);
 	color: #fff;
 }
