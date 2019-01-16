@@ -5,14 +5,14 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title>后台登录</title>
-		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
-		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<link rel="stylesheet" type="text/css" href="Individual/layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="Individual/css/login.css" />
 	</head>
 
 	<body>
 		<div class="m-login-bg">
 			<div class="m-login">
-				<h3>后台系统登录</h3>
+				<h3>Marshmallo</h3>
 				<div class="m-login-warp">
 					<form class="layui-form">
 						<div class="layui-form-item">
@@ -26,7 +26,7 @@
 								<input type="text" name="verity" required lay-verify="required" placeholder="验证码" autocomplete="off" class="layui-input">
 							</div>
 							<div class="layui-inline">
-								<img class="verifyImg" onclick="this.src=this.src+'?c='+Math.random();" src="img/login/yzm.jpg" />
+								<img class="verifyImg" onclick="this.src=this.src+'?c='+Math.random();" src="Individual/img/login/yzm.jpg" />
 							</div>
 						</div>
 						<div class="layui-form-item m-login-btn">
@@ -42,7 +42,7 @@
 				<p class="copyright">Copyright 2018-2019 by Marshmello</p>
 			</div>
 		</div>
-		<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="Individual/layui/layui.js" type="text/javascript" charset="utf-8"></script>
 		<script>
 			layui.use(['form', 'layedit', 'laydate'], function() {
 				var form = layui.form,
@@ -67,7 +67,7 @@
 					layer.alert(JSON.stringify(data.field), {
 						title: '最终的提交信息',
 					})
-					location.href='../index.html';
+					location.href='Individual/home.html';
 					return false;
 				});
 

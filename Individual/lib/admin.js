@@ -153,7 +153,7 @@ layui.define("view", function(e) {
 				P.popupRight({
 					id: "LAY_adminPopupTheme",
 					success: function() {
-						s(this.id).render("Individual/system/theme")
+						s(this.id).render("system/theme")
 					}
 				})
 			},
