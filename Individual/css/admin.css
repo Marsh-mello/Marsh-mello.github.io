@@ -1266,7 +1266,7 @@ html {
 .admin-pages-tags > span:hover{
 	/*background-color: #1E9FFF;*/
 	background: #1E9FFF;
-	border-color: rgba(0,0,0,0);
+	/*border-color: rgba(0,0,0,0);*/
 	color: #fff;
 }
 .admin-pages-tags .layui-badge,input{
@@ -1347,7 +1347,7 @@ html {
 	padding: 4px;
 	border-radius:4px ;
 	background: -webkit-linear-gradient(
-	left,#6041e0,#ac5cff
+	left,#1e9fff,#1a57e6
 	);
 }
 .list-top-title{
