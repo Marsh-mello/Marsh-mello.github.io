@@ -1,0 +1,141 @@
+*,*::before,*::after {
+	box-sizing:border-box
+}
+body {
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:#4cc5f4;
+	overflow:hidden 
+}
+.tekst {
+	color:#505050;
+	margin:0;
+	padding:0;
+	font-family:'Lato',arial,sans-serif;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:28px;
+	font-weight:bold;
+	display:block;
+	letter-spacing:2px;
+	max-width:100%;
+	text-align:center;
+	position:absolute;
+	bottom:20px;
+	left:30px;
+	z-index:1
+}
+a {
+	color:#fefefe;
+	text-decoration:none;
+	cursor:pointer
+}
+a:hover {
+	text-decoration:underline
+}
+.pozycja {
+	position:absolute;
+	top:50%;
+	left:50%;
+	height:100%;
+	-webkit-transform:translate(-50%,-111px);
+	-moz-transform:translate(-50%,-111px);
+	-ms-transform:translate(-50%,-111px);
+	-o-transform:translate(-50%,-111px);
+	transform:translate(-50%,-111px)
+}
+.ludek {
+	position:relative;
+	width:200px;
+	height:100%
+}
+.ludek .cialo,.skora {
+	position:absolute;
+	width:100%;
+	height:105%;
+	top:0;
+	left:0;
+	background:#191919;
+	border-radius:200px 200px 0 0;
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	-webkit-transform-origin:bottom center;
+	-moz-transform-origin:bottom center;
+	-ms-transform-origin:bottom center;
+	-o-transform-origin:bottom center;
+	transform-origin:bottom center
+}
+.ludek .skora {
+	overflow:hidden
+}
+.ludek .cialo .ucho {
+	position:absolute;
+	top:80px;
+	width:45px;
+	height:45px;
+	background:#191919;
+	border-radius:45px
+}
+.ludek .cialo .ucho.lewe {
+	left:-10%
+}
+.ludek .cialo .ucho.prawe {
+	right:-10%
+}
+.ludek .oko {
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:85px;
+	background:#fefefe;
+	border-radius:50%;
+	z-index:1
+}
+.ludek .oko.lewe {
+	left:47px
+}
+.ludek .oko.prawe {
+	left:103px
+}
+.ludek .oko .zrenica {
+	width:15px;
+	height:15px;
+	position:absolute;
+	top:18px;
+	left:18px;
+	background:#191919;
+	border-radius:50%
+}
+.ludek .powieka_gorna {
+	width:70%;
+	height:30px;
+	position:absolute;
+	top:50px;
+	left:15%;
+	background:#191919;
+	border-radius:30px 30px 0 0;
+	z-index:3
+}
+.ludek .powieka_dolna {
+	width:70%;
+	height:30px;
+	position:absolute;
+	top:140px;
+	left:15%;
+	background:#191919;
+	border-radius:0 0 30px 30px;
+	z-index:3
+}
+.ludek .usta {
+	width:80%;
+	height:32px;
+	position:absolute;
+	top:145px;
+	left:10%;
+	background:#fefefe;
+	border-radius:32px;
+	z-index:4
+}
