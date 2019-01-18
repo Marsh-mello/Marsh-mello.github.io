@@ -5,15 +5,6 @@ html,body {
     padding: 0;
     overflow: hidden;
 }
-.txt{
-	padding: 10px;
-	border: 1px solid #fff;
-	color: #fff;
-	position: absolute;
-	top: 50px;
-	left: 45%;
-	border-radius:4px ;
-}
 .container{
     width: 100％;
     height: 100%;
