@@ -123,7 +123,7 @@ input:-webkit-autofill {
 
 img {
 	position: absolute;
-	top: -27.8%;
+	top: -32.2%;
 	left: 50%;
 	width: 120px;
 	height: 95px;
@@ -161,7 +161,7 @@ img {
 	display: none;
 	width: 120px;
 	height: 95px;
-	top: -27.8%;
+	top: -32.2%;
 }
 
 .g-password:focus-within~img {
