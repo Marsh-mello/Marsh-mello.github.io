@@ -32,12 +32,25 @@ html {
 }
 #tianqi{
 	margin:  0!important;
-	/*border: none;*/
 }
-.tq-add,.tq-air,.tq-temp,.tq-tips{
-	height: 40px;
+.tq-chart div{
+	margin-top: 5px;
+}
+.tq-add,.tq-date,.tq-air,.tq-temp,.tq-tips,.tq-heat{
+	height: 30px;
 	text-align: center;
-	line-height: 40px;
+	line-height: 30px;
+}
+.tq-add{
+	font-weight:600 ;
+	font-size: 1.2em;
+}
+.tq-date,.tq-weather,.tq-air{
+	color: #999999;
+}
+.tq-heat{
+	color: #1E9FFF;
+	font-size: 3em;
 }
 .tq-weather{
 	text-align: center;
@@ -52,4 +65,10 @@ html {
 }
 .tq-table{
 	margin-top: 50px!important;
+}
+canvas{
+	display: block;
+	width: 100px;
+	height: 50px;
+	margin: 10px auto 10px auto;
 }
