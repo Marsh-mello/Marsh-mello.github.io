@@ -84,6 +84,9 @@ $('#btn').click(function cl() {
 			var iconWea=$('.tq-wea');
 			switch (res.data[0].wea){
 				case '晴':
+				case '小雪转晴':
+				case '多云转晴':
+				case '阵雪转晴':
 				iconWea.attr('id','icon1');//晴
 				break;
 //				case '晴转多云':
@@ -91,17 +94,11 @@ $('#btn').click(function cl() {
 //				break;
 				case '阴':
 				case '晴转多云':
-				case '小雪转晴':
-				case '多云转晴':
 				case '多云转阴':
 				case '晴转阴':
 				case '阴转多云':
-				case '阴转小雪':
-				case '阵雪转晴':
-				case '晴转阵雪':
 				case '小雪转多云':
 				case '小雨转多云':
-				case '阴转小雪':
 				iconWea.attr('id','icon3');//少云
 				break;
 //				case '多云':
@@ -116,6 +113,7 @@ $('#btn').click(function cl() {
 				case '阵雨':
 				case '暴雨':
 				case '大暴雨':
+				case '阴转小雨':
 				iconWea.attr('id','icon6');//下雨
 				break;
 				case '雨夹雪':
@@ -126,6 +124,8 @@ $('#btn').click(function cl() {
 				case '大雪':
 				case '阵雪':
 				case '暴雪':
+				case '阴转小雪':
+				case '晴转阵雪':
 				iconWea.attr('id','icon8');//大雪
 				break;
 				case '扬沙':
