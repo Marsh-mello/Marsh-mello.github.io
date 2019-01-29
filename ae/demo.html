@@ -3,19 +3,44 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>AE-动画demo</title>
-		<script src="lottie.js"></script>
+		<link rel="stylesheet" href="css/demo.css" />
+		<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.8.2/jquery.min.js"></script>
+		<script src="js/lottie.js"></script>
 	</head>
 	<body>
-		<div id="animation"></div>
-    <script>
-        bodymovin.loadAnimation({
-            path:'data.json',   //json文件路径
-            loop:true,
-            autoplay:true,
-            renderer:'canvas',  //渲染方式，有"html"、"canvas"和"svg"三种
-            container:document.getElementById('animation')
-        });
-        //bodymovin.js的完整api文档见GitHub项目首页(https://github.com/bodymovin/bodymovin)
-    </script>
+		<ul class="center">
+			<li id="data">数字倒计时</li>
+			<li id="logo" style="display: none;">Logo加载</li>
+		</ul>
+		<button id="next-btn">下一个</button>
+		<script>
+			bodymovin.loadAnimation({
+				path: 'json/data.json', //json文件路径
+				loop: true,
+				autoplay: true,
+				renderer: 'svg', //渲染方式，有"html"、"canvas"和"svg"三种
+				container: document.getElementById('data')
+			});
+			bodymovin.loadAnimation({
+				path: 'json/logo.json', //json文件路径
+				loop: true,
+				autoplay: true,
+				renderer: 'svg', //渲染方式，有"html"、"canvas"和"svg"三种
+				container: document.getElementById('logo')
+			})
+		</script>
+
+		<script>
+			var count = 0; //定义全局变量count来表示当前图片
+			function run() {
+				count++;
+				count = count == 2 ? 0 : count;
+				$('.center li').eq(count).fadeIn().siblings('li').fadeOut(); //利用eq来遍历img，并将count位图片显示，其他兄弟元素隐藏，fadeIN位淡入显示，fadeOut为淡出
+			}
+			// var timer = setInterval(run, 5000); //设置定时器
+			$('#next-btn').click(function() { //设置右键按钮点击事件
+				run();
+			});
+		</script>
 	</body>
 </html>

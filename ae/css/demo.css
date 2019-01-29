@@ -1,0 +1,27 @@
+ul{
+	list-style: none;
+}
+.center{
+	width: 60%;
+	margin: 0 auto;
+}
+.center li{
+	text-align: center;
+	line-height: 60px;
+	height: 600px!important;
+}
+#next-btn{
+	width: 200px;
+	height: 38px;
+	background-color: #1e9fff;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+}
+#next-btn:hover{
+	background-color: #4cb2ff;
+}
