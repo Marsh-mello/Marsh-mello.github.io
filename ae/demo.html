@@ -12,6 +12,7 @@
 			<li id="data">- 数字倒计时 -</li>
 			<li id="logo" style="display: none;">- Logo加载 -</li>
 			<li id="mbe" style="display: none;">- MBE风格雪糕动画 -</li>
+			<li id="word" style="display: none;">- MBE风格雪糕动画 -</li>
 			<button id="next-btn">下一个</button>
 		</ul>
 		<script>
@@ -36,13 +37,20 @@
 				renderer: 'svg', //渲染方式，有"html"、"canvas"和"svg"三种
 				container: document.getElementById('mbe')
 			})
+			bodymovin.loadAnimation({
+				path: 'json/word.json', //json文件路径
+				loop: true,
+				autoplay: true,
+				renderer: 'svg', //渲染方式，有"html"、"canvas"和"svg"三种
+				container: document.getElementById('word')
+			})
 		</script>
 
 		<script>
 			var count = 0; //定义全局变量count来表示当前图片
 			function run() {
 				count++;
-				count = count == 3 ? 0 : count;
+				count = count == 4 ? 0 : count;
 				$('.center li').eq(count).fadeIn().siblings('li').fadeOut(); //利用eq来遍历img，并将count位图片显示，其他兄弟元素隐藏，fadeIN位淡入显示，fadeOut为淡出
 			}
 			// var timer = setInterval(run, 5000); //设置定时器
