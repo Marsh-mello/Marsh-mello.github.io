@@ -12,7 +12,7 @@ ul{
 	text-align: center;
 	font-size: 1.875rem;
 	font-weight: 600;
-	height: 300px!important;
+	height: 500px!important;
 }
 #next-btn{
 	width: 200px;
@@ -31,10 +31,23 @@ ul{
 #next-btn:hover{
 	background-color: #4cb2ff;
 }
-/* #word{
-	color: #fff;
-	background: #153285;
-} */
+.foote{
+	margin: 0 auto;
+}
+.foote-link{
+	display: block;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #898989;
+	font-size: 0.875rem;
+	margin-left: 20px;
+	cursor: pointer;
+}
+a:hover{
+	color: #333;
+}
 .floor{
 	width: 60px;
 	height: 6px;
