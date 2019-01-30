@@ -12,7 +12,7 @@ ul{
 	text-align: center;
 	font-size: 1.875rem;
 	font-weight: 600;
-	height: 500px!important;
+	height: 300px!important;
 }
 #next-btn{
 	width: 200px;
@@ -41,7 +41,6 @@ ul{
 a{
 	text-decoration: none;
 	color: #898989;
-	font-size: 0.875rem;
 	margin-left: 20px;
 	cursor: pointer;
 }
