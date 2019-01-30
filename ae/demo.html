@@ -19,9 +19,11 @@
 			</li>
 			<li id="word" style="display: none;">- MBE风格雪糕动画 -<div class="floor"></div>
 			</li>
+			<li id="xiaoyou" style="display: none;">- xiao-you -<div class="floor"></div>
+			</li>
 			<button id="next-btn">下一个</button>
 		</ul>
-		<div class="foote">
+		<!--<div class="foote">
 			<div class="foote-link">
 				<a href="https://www.jianshu.com/p/5db10bb71780" target="_blank">教程</a>
 				<a href="https://github.com/airbnb/lottie-web" target="_blank">
@@ -30,7 +32,7 @@
 					</svg>
 				</a>
 			</div>
-		</div>
+		</div>-->
 		<script>
 			bodymovin.loadAnimation({
 				path: 'json/data.json', //json文件路径
@@ -60,13 +62,20 @@
 				renderer: 'svg', //渲染方式，有"html"、"canvas"和"svg"三种
 				container: document.getElementById('word')
 			})
+			bodymovin.loadAnimation({
+				path: 'json/3928-xiao-you.json', //json文件路径
+				loop: true,
+				autoplay: true,
+				renderer: 'svg', //渲染方式，有"html"、"canvas"和"svg"三种
+				container: document.getElementById('xiaoyou')
+			})
 		</script>
 
 		<script>
 			var count = 0; //定义全局变量count来表示当前图片
 			function run() {
 				count++;
-				count = count == 4 ? 0 : count;
+				count = count == 5 ? 0 : count;
 				$('.center li').eq(count).fadeIn().siblings('li').fadeOut(); //利用eq来遍历img，并将count位图片显示，其他兄弟元素隐藏，fadeIN位淡入显示，fadeOut为淡出
 			}
 			// var timer = setInterval(run, 5000); //设置定时器
