@@ -1,5 +1,6 @@
 $(function() {
 	myajax = $.ajax({
+		async: false, 
 		url: "work.json", //json文件位置
 		success: function(res) { //请求成功完成后要执行的方法
 			$.each(res.data, function(i, data) {
