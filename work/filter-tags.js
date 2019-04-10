@@ -1,6 +1,6 @@
 $(function() {
 	myajax = $.ajax({
-		url: "work.json", //json文件位置
+		url: "http://marshmello.oss-cn-hangzhou.aliyuncs.com/work.json", //json文件位置
 		success: function(res) { //请求成功完成后要执行的方法
 			$.each(res.data, function(i, data) {
 				var titleNum = data.ObjectName.lastIndexOf('/');
@@ -21,7 +21,6 @@ $(function() {
 
 	});
 	$.when(myajax).done(function() {
-		
 		var $imgs = $('#sortable div'); // Store all images
 		var $buttons = $('.sortable__nav'); // Store buttons element
 		var tagged = {}; // Create tagged object
