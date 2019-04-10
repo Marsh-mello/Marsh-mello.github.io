@@ -8,7 +8,6 @@ $(function() {
 				var nameNum = data.ObjectName.lastIndexOf('.');
 				var name = data.ObjectName.substring(titleNum + 1, nameNum);
 				var url = data.Url;
-				console.log(name);
 				$("#sortable").append(
 					"<div data-tags='" + title + "'><div class='card'><img class='card__picture' src='" +
 					url +
@@ -22,6 +21,7 @@ $(function() {
 
 	});
 	$.when(myajax).done(function() {
+		
 		var $imgs = $('#sortable div'); // Store all images
 		var $buttons = $('.sortable__nav'); // Store buttons element
 		var tagged = {}; // Create tagged object
@@ -46,6 +46,7 @@ $(function() {
 		$.each(tagged, function(tagName) { // For each tag name
 			$('<li>' + "<a data-sjslink='" + tagName + "' class='nav__link'>" + tagName + "</a>'", {}).appendTo($buttons); // Add to the buttons
 		});
+		
 		document.querySelector('#sortable').sortablejs();
 		
 		layui.use('layer', function() {

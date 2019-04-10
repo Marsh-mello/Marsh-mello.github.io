@@ -6,13 +6,12 @@
 		<title></title>
 		<link rel="stylesheet" href="sortable.min.css" />
 		<link rel="stylesheet" href="main.css" />
-		<script type="text/javascript" src="../Individual/layui/layui.js" ></script>
+		<script type="text/javascript" src="../Individual/layui/layui.js"></script>
 	</head>
 
 	<body>
 		<div class="main">
 			<div class="container">
-				<img class="intro" src="../Individual/img/works/02.jpg" />
 				<h1 class="heading">作品集</h1>
 				<p class="heading-title">Hover over a card to flip it.</p>
 				<ul class="sortable__nav nav"></ul>
@@ -20,9 +19,60 @@
 			</div>
 
 		</div>
+		<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+			<defs>
+				<radialGradient id="Gradient1" cx="50%" cy="50%" fx="50%" fy="50%" r=".5">
+					<animate attributeName="fx" dur="34s" values="0%;1%;0%" repeatCount="indefinite" />
+					<stop offset="0%" stop-color="rgba(255, 0, 255, 1)" />
+					<stop offset="100%" stop-color="rgba(255, 0, 255, 0)" />
+				</radialGradient>
+				<radialGradient id="Gradient2" cx="50%" cy="50%" fx="10%" fy="50%" r=".5">
+					<animate attributeName="fx" dur="23.5s" values="0%;1%;0%" repeatCount="indefinite" />
+					<stop offset="0%" stop-color="rgba(255, 255, 0, 1)" />
+					<stop offset="100%" stop-color="rgba(255, 255, 0, 0)" />
+				</radialGradient>
+				<radialGradient id="Gradient3" cx="50%" cy="50%" fx="50%" fy="50%" r=".5">
+					<animate attributeName="fx" dur="21.5s" values="0%;1%;0%" repeatCount="indefinite" />
+					<stop offset="0%" stop-color="rgba(0, 255, 255, 1)" />
+					<stop offset="100%" stop-color="rgba(0, 255, 255, 0)" />
+				</radialGradient>
+
+				<radialGradient id="Gradient4" cx="50%" cy="50%" fx="50%" fy="50%" r=".5">
+					<animate attributeName="fx" dur="23s" values="0%;5%;0%" repeatCount="indefinite" />
+					<stop offset="0%" stop-color="rgba(0, 255, 0, 1)" />
+					<stop offset="100%" stop-color="rgba(0, 255, 0, 0)" />
+				</radialGradient>
+				<radialGradient id="Gradient5" cx="50%" cy="50%" fx="10%" fy="50%" r=".5">
+					<animate attributeName="fx" dur="24.5s" values="0%;5%;0%" repeatCount="indefinite" />
+					<stop offset="0%" stop-color="rgba(0,0,255, 1)" />
+					<stop offset="100%" stop-color="rgba(0,0,255, 0)" />
+				</radialGradient>
+				<radialGradient id="Gradient6" cx="50%" cy="50%" fx="50%" fy="50%" r=".5">
+					<animate attributeName="fx" dur="25.5s" values="0%;5%;0%" repeatCount="indefinite" />
+					<stop offset="0%" stop-color="rgba(255,0,0, 1)" />
+					<stop offset="100%" stop-color="rgba(255,0,0, 0)" />
+				</radialGradient>
+			</defs>
+			<rect x="0" y="0" width="200%" height="200%" fill="url(#Gradient1)">
+				<animate attributeName="x" dur="20s" values="0%;50%;0%" repeatCount="indefinite" />
+				<animate attributeName="y" dur="21s" values="0%;50%;0%" repeatCount="indefinite" />
+				<animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="17s" repeatCount="indefinite" />
+			</rect>
+			<rect x="0" y="0" width="100%" height="200%" fill="url(#Gradient2)">
+				<animate attributeName="x" dur="23s" values="50%;-25%;50%" repeatCount="indefinite" />
+				<animate attributeName="y" dur="24s" values="50%;-25%;50%" repeatCount="indefinite" />
+				<animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="18s" repeatCount="indefinite" />
+			</rect>
+			<rect x="0" y="0" width="100%" height="200%" fill="url(#Gradient3)">
+				<animate attributeName="x" dur="25s" values="0%;75%;0%" repeatCount="indefinite" />
+				<animate attributeName="y" dur="26s" values="0%;25%;0%" repeatCount="indefinite" />
+				<animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="19s" repeatCount="indefinite" />
+			</rect>
+
+		</svg>
 		<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="sortable.min.js"></script>
 		<script type="text/javascript" src="filter-tags.js"></script>
+		<script type="text/javascript" src="sortable.min.js"></script>
 	</body>
 
 </html>
