@@ -9,7 +9,8 @@
 html{
   font-size: .625em;
   font-size: calc(1em * .625);
-  background: #ffc000;
+  /*background: #E4E0E0;*/
+  background: #1d212b;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -50,12 +51,20 @@ hr{
 h1{
 	color: #fff;
 }
-svg { 
+#bg {
+	position:fixed;
+	top:0;
+	left:0;
 	width:100%;
-  height: 100%;
-	position: fixed;
-	top: 0;
-	z-index: -1;
+	height:100%;
+	z-index:-1;
+}
+#bg canvas {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 ::selection{
   background: var(--main-bg-color);
@@ -106,7 +115,8 @@ svg {
 }
 .card{
   border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+  /*box-shadow: 0 0 35px 10px rgba(79, 69, 66, 0.2);*/
+	box-shadow: 0 1px 3px rgba(0,0,0,.02),0 16px 32px -4px rgba(0,0,0,.17);
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -114,7 +124,8 @@ svg {
 }
 .card:hover{
 	transform .15s ease-in-out,box-shadow .15s ease-in-out;
-	box-shadow: 0 1px 3px rgba(0,0,0,.02),0 16px 32px -4px rgba(0,0,0,.17);
+  box-shadow: 0 0 35px 10px rgba(79, 69, 66, 0.2);
+	/*box-shadow: 0 1px 3px rgba(0,0,0,.02),0 16px 32px -4px rgba(0,0,0,.17);*/
 	transform:translateY(-1px);
 }
 .card__picture{
