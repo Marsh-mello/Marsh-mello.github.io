@@ -10,11 +10,11 @@ $(function() {
 				var name = data.ObjectName.substring(titleNum + 1, nameNum);
 				var url = data.Url;
 				$("#sortable").append(
-					"<div data-tags='" + title + "'><div class='card'><img class='card__picture' src='" +
+					"<div data-tags='" + title + "'><a href='workDetail.html?imgId="+data.id+"'  class='card'><img class='card__picture' src='" +
 					url +
 					"'><div class='card-infos'><h2 class='card__title'>" +
 					name +
-					"</h2><p class='card__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, eius, asperiores. Incidunt sapiente est quae iure...</p></div></div></div>"
+					"</h2><p class='card__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, eius, asperiores. Incidunt sapiente est quae iure...</p></div></a></div>"
 				);
 			});
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+
+	<body>
+		<div class="workDetail"></div>
+		<div id="bg">
+			<canvas></canvas>
+			<canvas></canvas>
+			<canvas></canvas>
+		</div>
+		<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="bg.js" ></script>
+		<script type="text/javascript">
+			$(function() {
+				//获取url中的参数
+				function getUrlParam(name) {
+					var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+					var r = window.location.search.substr(1).match(reg); //匹配目标参数
+					if(r != null) return unescape(r[2]);
+					return null; //返回参数值
+				}
+
+				//接收URL中的参数Id
+				var id = getUrlParam('imgId');
+				console.log('id:' + id);
+
+				$.ajax({
+					type: 'get',
+					url: 'work.json',
+					dataType: 'json',
+					success: function(res, status) {
+						console.log(status)
+						$.each(res.data, function(i, data) {
+							//根据id获取详情数据
+							if(id == data.id) {
+								var str = "<img class='detailImg' src='" + data.Url + "'/>";
+							}
+							$('.workDetail').append(str);
+						});
+					}
+				})
+			})
+			$(document).mouseup(function(e){
+			  var _con = $(' img ');   // 设置目标区域
+			  if(!_con.is(e.target) && _con.has(e.target).length === 0){ // Mark 1
+			    window.history.go(-1);
+			  }
+			});
+		</script>
+	</body>
+
+</html>
