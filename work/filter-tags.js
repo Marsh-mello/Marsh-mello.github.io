@@ -46,15 +46,6 @@ $(function() {
 		$.each(tagged, function(tagName) { // For each tag name
 			$('<li>' + "<a data-sjslink='" + tagName + "' class='nav__link'>" + tagName + "</a>'", {}).appendTo($buttons); // Add to the buttons
 		});
-		
-		
-		layui.use('layer', function() {
-			layer.photos({
-				photos: '#sortable',
-				anim: 5, //0-6的选择，指定弹出图片动画类型，默认随机（请注意，3.0之前的版本用shift参数）
-			});
-		});
-		
 		document.querySelector('#sortable').sortablejs();
 	});
 })

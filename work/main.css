@@ -254,6 +254,7 @@ h1 {
 	margin: 50px auto;
 }
 .detailImg{
+	border-radius: 10px;
 	width: 80%;
 	height: 100%;
 }
