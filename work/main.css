@@ -248,12 +248,12 @@ h1 {
 }
 /*workDetail*/
 .workDetail {
-	width: 1070px;
-	height: 100%;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 	margin: 50px auto;
 }
 .detailImg{
-	width: 1070px;
+	width: 80%;
 	height: 100%;
-	margin: 0 auto;
 }
