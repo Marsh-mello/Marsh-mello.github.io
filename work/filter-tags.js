@@ -13,7 +13,7 @@ $(function() {
 				console.log(name)
 				var url = data.Url;
 				$("#sortable").append(
-					"<div data-tags='" + title + "'><a href='workDetail.html?imgId="+data.id+"'  class='card'><img class='card__picture' src='" +
+					"<div data-tags='" + title + "'><a href='work/workDetail.html?imgId="+data.id+"'  class='card'><img class='card__picture' src='" +
 					url +
 					"'><div class='card-infos'><h2 class='card__title'>" +
 					name +
