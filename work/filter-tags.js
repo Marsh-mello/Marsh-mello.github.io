@@ -1,20 +1,23 @@
 $(function() {
 	myajax = $.ajax({
 		async: false, 
-		url: "work.json", //json文件位置
+		url: "work/work.json", //json文件位置
 		success: function(res) { //请求成功完成后要执行的方法
 			$.each(res.data, function(i, data) {
-				var titleNum = data.ObjectName.lastIndexOf('/');
-				var title = data.ObjectName.substring(0, titleNum);
+				var titleNum1 = data.ObjectName.indexOf('/');
+				var titleNum2 = data.ObjectName.lastIndexOf('/');
+				var title = data.ObjectName.substring(0, titleNum1);
 				var nameNum = data.ObjectName.lastIndexOf('.');
-				var name = data.ObjectName.substring(titleNum + 1, nameNum);
+				var name = data.ObjectName.substring(titleNum1 + 1, titleNum2);
+				var content= data.ObjectName.substring(titleNum2 + 1, nameNum);
+				console.log(name)
 				var url = data.Url;
 				$("#sortable").append(
 					"<div data-tags='" + title + "'><a href='workDetail.html?imgId="+data.id+"'  class='card'><img class='card__picture' src='" +
 					url +
 					"'><div class='card-infos'><h2 class='card__title'>" +
 					name +
-					"</h2><p class='card__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, eius, asperiores. Incidunt sapiente est quae iure...</p></div></a></div>"
+					"</h2><p class='card__text'>"+content+"</p></div></a></div>"
 				);
 			});
 
