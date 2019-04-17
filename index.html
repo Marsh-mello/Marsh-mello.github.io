@@ -81,6 +81,9 @@
 			</div>
 
 		</div>
+		<div class="t-right-bar">
+			<div class="t-bar-rocket" id="back-to-top"> 返回顶部</div>
+		</div>
 		<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src="work/filter-tags.js"></script>
 		<script type="text/javascript" src="work/sortable.min.js"></script>
@@ -104,6 +107,19 @@
 					document.documentElement.setAttribute('theme', 'dark');
 				}
 			});
+			$(window).scroll(function () {
+		        if ($(window).scrollTop() > 100) {
+		            $(".t-right-bar").fadeIn(500);
+		        }
+		        else {
+		            $(".t-right-bar").fadeOut(500);
+		        }
+		    });
+		
+		    $("#back-to-top").click(function () {
+		        $('body,html').animate({scrollTop: 0}, 100);
+		        return false;
+		    });
 		</script>
 	</body>
 

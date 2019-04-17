@@ -380,3 +380,45 @@ svg.svg-dark .bottom {
 	width: 80%;
 	height: 100%;
 }
+/*返回顶部*/
+.t-right-bar {
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    width: 48px;
+    height: 48px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.t-right-bar > div {
+    float: left;
+    height: 36px;
+    margin-bottom: 1px;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    padding-left: 100%;
+    clear: both;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 36px;
+    font-style: normal;
+    background-color: rgba(0,0,0,0.1);
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    transition: transform .2s cubic-bezier(.215, .61, .355, 1), padding .2s cubic-bezier(.215, .61, .355, 1), margin .2s cubic-bezier(.215, .61, .355, 1), background-color .2s cubic-bezier(.215, .61, .355, 1)
+}
+
+ .t-right-bar > div.active, .t-right-bar > div:hover {
+    transform: translateX(-100%);
+    padding-left: 45px;
+    padding-right: 10px;
+    margin-left: 48px;
+    background-color: rgba(30,159,255,0.5);
+    text-decoration: none;
+    color: #fff
+}
+.t-right-bar .t-bar-rocket {
+    background-image: url(../Individual/img/rocket_1.svg);  //按钮图标
+    background-position: 19px center;
+}
