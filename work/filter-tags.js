@@ -10,7 +10,6 @@ $(function() {
 				var nameNum = data.ObjectName.lastIndexOf('.');
 				var name = data.ObjectName.substring(titleNum1 + 1, titleNum2);
 				var content= data.ObjectName.substring(titleNum2 + 1, nameNum);
-				console.log(name)
 				var url = data.Url;
 				$("#sortable").append(
 					"<div data-tags='" + title + "'><a href='work/workDetail.html?imgId="+data.id+"'  class='card'><img class='card__picture' src='" +
