@@ -85,10 +85,10 @@ h6{
 }
 
  :root[theme='dark'] {
-	--body-bg-color: #000;
+	--body-bg-color: #272625;
 	--text-color: #d6d6d6;
 	--tab-text-color:#01ff8d;
-	--card-bg-color:#2d2d2d;
+	--card-bg-color:#000;
 	--svg-color:#fff;
 	--heading-bg-color:linear-gradient(135deg, #01ff8d, #00fff0);
 }
@@ -377,6 +377,9 @@ svg.svg-dark .bottom {
 .link__icon {
 	height: 2rem;
 	width: 2rem;
+}
+.link-color{
+	color:var(--text-color);
 }
 .link-color:hover{
 	color: var(--tab-text-color);
