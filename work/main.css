@@ -221,6 +221,7 @@ svg.svg-dark .bottom {
 
 .heading{
 	width: 100%;
+	margin-top:1rem;
 	margin-left: 1rem;
 	font-weight: 900;
 	font-size: 1.618rem;
