@@ -85,10 +85,10 @@ h6{
 }
 
  :root[theme='dark'] {
-	--body-bg-color: #000;
+	--body-bg-color: #282828;
 	--text-color: #d6d6d6;
 	--tab-text-color:#01ff8d;
-	--card-bg-color:#272625;
+	--card-bg-color:#5c5e5f;
 	--svg-color:#fff;
 	--heading-bg-color:linear-gradient(135deg, #01ff8d, #00fff0);
 }
