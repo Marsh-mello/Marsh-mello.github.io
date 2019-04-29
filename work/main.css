@@ -85,7 +85,7 @@ h6{
 }
 
  :root[theme='dark'] {
-	--body-bg-color: #181818;
+	--body-bg-color: #161425;
 	--text-color: #c2c8ce;
 	--tab-text-color:#01ff8d;
 	--card-bg-color:#1c192e;
