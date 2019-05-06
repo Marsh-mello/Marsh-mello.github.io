@@ -235,7 +235,6 @@ svg.svg-dark .bottom {
 	text-transform: uppercase;
 	letter-spacing: .1ch;
 	line-height: 1;
-	padding-bottom: .5em;
 	margin-bottom: 1rem;
 	position: relative;
 	color: var(--text-color);
