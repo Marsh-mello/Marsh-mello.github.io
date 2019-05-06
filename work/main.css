@@ -82,6 +82,7 @@ h6 {
 
  :root {
 	--body-bg-color: #f6f6f6;
+	--alert-bg-color: rgba(229, 229, 229, .95);
 	--text-color: #333;
 	--tab-text-color: #ff760d;
 	--card-bg-color: #fff;
@@ -91,6 +92,7 @@ h6 {
 
  :root[theme='dark'] {
 	--body-bg-color: #121318;
+	--alert-bg-color: rgba(31, 30, 30, .95);
 	--text-color: #c2c8ce;
 	--tab-text-color: #01ff8d;
 	--card-bg-color: #27282e;
@@ -423,7 +425,7 @@ svg.svg-dark .bottom {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(229, 229, 229, .95);
+	background: var(--alert-bg-color);
 	z-index: 99994;
 	overflow: auto;
 	display: none;
@@ -432,8 +434,9 @@ svg.svg-dark .bottom {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	padding: 20px;
+	background-color: var(--card-bg-color);
 	margin: 50px auto;
-	border-radius: 10px;
 	width: 50%;
 }
 
