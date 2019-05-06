@@ -3,21 +3,23 @@
 *::before {
 	box-sizing: border-box;
 }
+
 @font-face {
-  font-family: 'iconfont';  /* project id 1149735 */
-  src: url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.eot');
-  src: url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.svg#iconfont') format('svg');
+	font-family: 'iconfont';
+	/* project id 1149735 */
+	src: url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.eot');
+	src: url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.woff2') format('woff2'), url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.woff') format('woff'), url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.ttf') format('truetype'), url('//at.alicdn.com/t/font_1149735_ol018kqqg4b.svg#iconfont') format('svg');
 }
-.iconfont{
-    font-family:"iconfont" !important;
-    font-size:14px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 14px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 html {
 	font-size: .625em;
 	font-size: calc(1em * .625);
@@ -68,29 +70,32 @@ hr {
 h1 {
 	color: #fff;
 }
-h4{
+
+h4 {
 	margin-left: 1.2rem;
 }
-h6{
+
+h6 {
 	padding-left: 2rem;
 	margin: 0;
 }
+
  :root {
 	--body-bg-color: #f6f6f6;
 	--text-color: #333;
-	--tab-text-color:#ff760d;
-	--card-bg-color:#fff;
-	--svg-color:#000;
-	--heading-bg-color:linear-gradient(135deg, #ff372d, #ff760d);
+	--tab-text-color: #ff760d;
+	--card-bg-color: #fff;
+	--svg-color: #000;
+	--heading-bg-color: linear-gradient(135deg, #ff372d, #ff760d);
 }
 
  :root[theme='dark'] {
 	--body-bg-color: #121318;
 	--text-color: #c2c8ce;
-	--tab-text-color:#01ff8d;
-	--card-bg-color:#27282e;
-	--svg-color:#fff;
-	--heading-bg-color:linear-gradient(135deg, #01ff8d, #00fff0);
+	--tab-text-color: #01ff8d;
+	--card-bg-color: #27282e;
+	--svg-color: #fff;
+	--heading-bg-color: linear-gradient(135deg, #01ff8d, #00fff0);
 }
 
 .head {
@@ -219,9 +224,9 @@ svg.svg-dark .bottom {
 	padding: 0 10px;
 }
 
-.heading{
+.heading {
 	width: 100%;
-	margin-top:30px;
+	margin-top: 30px;
 	margin-left: 1rem;
 	font-weight: 900;
 	font-size: 1.618rem;
@@ -246,10 +251,12 @@ svg.svg-dark .bottom {
 	background: var(--heading-bg-color);
 	bottom: 0;
 }
-.heading-basic li{
+
+.heading-basic li {
 	color: var(--text-color);
 	margin: 10px;
 }
+
 .heading-title {
 	color: var(--text-color);
 	width: 100%;
@@ -268,6 +275,7 @@ svg.svg-dark .bottom {
 	flex-direction: column;
 	transition: all 0.5s ease 0s;
 }
+
 .card:hover {
 	background: var(--card-bg-color);
 	transform .15s ease-in-out,
@@ -352,9 +360,11 @@ svg.svg-dark .bottom {
 	display: block;
 	border-bottom: 2px solid transparent;
 }
-.nav__link:hover{
+
+.nav__link:hover {
 	color: var(--tab-text-color);
 }
+
 .nav__link.is-active {
 	color: var(--tab-text-color);
 	border-color: var(--tab-text-color);
@@ -382,12 +392,15 @@ svg.svg-dark .bottom {
 	height: 2rem;
 	width: 2rem;
 }
-.link-color{
-	color:var(--text-color);
+
+.link-color {
+	color: var(--text-color);
 }
-.link-color:hover{
+
+.link-color:hover {
 	color: var(--tab-text-color);
 }
+
 
 /*workDetail*/
 
@@ -400,48 +413,72 @@ svg.svg-dark .bottom {
 
 .detailImg {
 	border-radius: 10px;
-	width: 80%;
+	width: 50%;
 	height: 100%;
 }
+/*弹窗*/
+#alert-view {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(229, 229, 229, .95);
+	z-index: 99994;
+	overflow: auto;
+	display: none;
+}
+.alert-view-img{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 50px auto;
+	border-radius: 10px;
+	width: 50%;
+}
+
 /*返回顶部*/
+
 .t-right-bar {
-    position: fixed;
-    right: 0;
-    bottom: 10%;
-    width: 48px;
-    height: 48px;
-    z-index: 1000;
-    cursor: pointer;
+	position: fixed;
+	right: 0;
+	bottom: 10%;
+	width: 48px;
+	height: 48px;
+	z-index: 1000;
+	cursor: pointer;
 }
 
-.t-right-bar > div {
-    float: left;
-    height: 36px;
-    margin-bottom: 1px;
-    border-radius: 20px 0 0 20px;
-    color: #fff;
-    padding-left: 100%;
-    clear: both;
-    white-space: nowrap;
-    font-size: 13px;
-    line-height: 36px;
-    font-style: normal;
-    background-color: rgba(0,0,0,0.1);
-    background-repeat: no-repeat;
-    background-position: 12px center;
-    transition: transform .2s cubic-bezier(.215, .61, .355, 1), padding .2s cubic-bezier(.215, .61, .355, 1), margin .2s cubic-bezier(.215, .61, .355, 1), background-color .2s cubic-bezier(.215, .61, .355, 1)
+.t-right-bar>div {
+	float: left;
+	height: 36px;
+	margin-bottom: 1px;
+	border-radius: 20px 0 0 20px;
+	color: #fff;
+	padding-left: 100%;
+	clear: both;
+	white-space: nowrap;
+	font-size: 13px;
+	line-height: 36px;
+	font-style: normal;
+	background-color: rgba(0, 0, 0, 0.1);
+	background-repeat: no-repeat;
+	background-position: 12px center;
+	transition: transform .2s cubic-bezier(.215, .61, .355, 1), padding .2s cubic-bezier(.215, .61, .355, 1), margin .2s cubic-bezier(.215, .61, .355, 1), background-color .2s cubic-bezier(.215, .61, .355, 1)
 }
 
- .t-right-bar > div.active, .t-right-bar > div:hover {
-    transform: translateX(-100%);
-    padding-left: 45px;
-    padding-right: 10px;
-    margin-left: 48px;
-    background-color: rgba(30,159,255,0.5);
-    text-decoration: none;
-    color: #fff
+.t-right-bar>div.active,
+.t-right-bar>div:hover {
+	transform: translateX(-100%);
+	padding-left: 45px;
+	padding-right: 10px;
+	margin-left: 48px;
+	background-color: rgba(30, 159, 255, 0.5);
+	text-decoration: none;
+	color: #fff
 }
+
 .t-right-bar .t-bar-rocket {
-    background-image: url(../Individual/img/rocket_1.svg);  //按钮图标
-    background-position: 19px center;
+	background-image: url(../Individual/img/rocket_1.svg); //按钮图标
+	background-position: 19px center;
 }

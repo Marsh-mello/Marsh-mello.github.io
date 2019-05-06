@@ -1,6 +1,6 @@
 $(function() {
 	myajax = $.ajax({
-		async: false, 
+		async: false,
 		url: "work/work.json", //json文件位置
 		success: function(res) { //请求成功完成后要执行的方法
 			$.each(res.data, function(i, data) {
@@ -9,20 +9,37 @@ $(function() {
 				var title = data.ObjectName.substring(0, titleNum1);
 				var nameNum = data.ObjectName.lastIndexOf('.');
 				var name = data.ObjectName.substring(titleNum1 + 1, titleNum2);
-				var content= data.ObjectName.substring(titleNum2 + 1, nameNum);
+				var content = data.ObjectName.substring(titleNum2 + 1, nameNum);
 				var url = data.Url;
 				$("#sortable").append(
-					"<div data-tags='" + title + "'><a href='work/workDetail.html?imgId="+data.id+"'  class='card'><img class='card__picture' src='" +
+					"<div data-tags='" + title + "'><a class='card'><img class='card__picture' src='" +
 					url +
 					"'><div class='card-infos'><h2 class='card__title'>" +
 					name +
-					"</h2><p class='card__text'>"+content+"</p></div></a></div>"
+					"</h2><p class='card__text'>" + content + "</p></div></a></div>"
 				);
 			});
 
 		}
 
 	});
+//	弹窗
+	var cardPicture = $('.card__picture');
+	var alertView = $('#alert-view');
+	var alertImg = $('.alert-view-img ');
+	cardPicture.click(function() {
+		$('body').css('overflow', 'hidden');
+		alertView.css('display', 'block');
+		var viewImg = $(this).attr('src');
+		alertImg.attr('src', viewImg);
+	})
+	$(document).mouseup(function(e) {
+		if(!alertImg.is(e.target) && alertImg.has(e.target).length === 0) { // Mark 1
+			$('body').css('overflow', 'auto');
+			alertView.css('display', 'none');
+		}
+	});
+	
 	$.when(myajax).done(function() {
 		var $imgs = $('#sortable div'); // Store all images
 		var $buttons = $('.sortable__nav'); // Store buttons element
