@@ -291,8 +291,8 @@ svg.svg-dark .bottom {
 .card__picture {
 	display: block;
 	width: 100%;
-	padding: 6px;
-	border-radius: 10px;
+	/*padding: 6px;*/
+	border-radius: 6px;
 	height: auto;
 	filter: grayscale(.1);
 }
@@ -302,7 +302,7 @@ svg.svg-dark .bottom {
 }
 
 .card-infos {
-	padding: 0 10px 10px 10px;
+	padding: 4px 10px 10px 10px;
 	border-bottom-left-radius: 6px;
 	border-bottom-right-radius: 6px;
 	color: var(--text-color);
