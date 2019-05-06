@@ -430,14 +430,26 @@ svg.svg-dark .bottom {
 	overflow: auto;
 	display: none;
 }
+#alert-view i{
+	position: absolute;
+	background: url(btn_close_layer.png)0 0 no-repeat;
+	width:36px;
+	height:36px;
+	right:10px;
+	top:80px;
+	margin:-18px 0 0 -18px;
+}
+#alert-view i:hover{
+	background-position: 0 -50px;
+}
 .alert-view-img{
 	display: flex;
 	justify-content: center;
-	width: 100%;
 	padding: 20px;
 	background-color: var(--card-bg-color);
 	margin: 50px auto;
-	width: 50%;
+	width: 100%;
+	max-width: 960px;
 }
 
 /*返回顶部*/
