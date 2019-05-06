@@ -21,7 +21,7 @@
 }
 
 html {
-	font-size: 12px;
+	font-size: .7em;
 	/*font-size: calc(1em * .625);*/
 	/*background: #E4E0E0;*/
 	-ms-text-size-adjust: 100%;
@@ -154,7 +154,7 @@ svg .bottom.right {
 	background: rgba(29, 29, 29, 0.75);
 	border-radius: 30px;
 	content: "夜 间 模 式";
-	font-size: 1em;
+	font-size: 13px;
 	font-family: 'Hind';
 	font-weight: 700;
 	text-transform: uppercase;
@@ -310,15 +310,14 @@ svg.svg-dark .bottom {
 
 .card__title {
 	font-family: 'Hind';
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 	font-weight: 600;
 	line-height: 1.4;
 	margin: 0 0 10px;
 }
 
 .card__text {
-	font-size: 1.4rem;
-	font-weight: 300;
+	font-size: 1.2rem;
 	border-top: 1px dashed #d4d4d4;
 	padding-top: 10px;
 	margin: 0;
@@ -435,7 +434,7 @@ svg.svg-dark .bottom {
 	background: url(btn_close_layer.png)0 0 no-repeat;
 	width:36px;
 	height:36px;
-	right:2%;
+	right:6%;
 	top:80px;
 	margin:-18px 0 0 -18px;
 }
@@ -448,7 +447,7 @@ svg.svg-dark .bottom {
 	padding: 20px;
 	background-color: var(--card-bg-color);
 	margin: 50px auto;
-	width: 100%;
+	width: 90%;
 	max-width: 960px;
 }
 
