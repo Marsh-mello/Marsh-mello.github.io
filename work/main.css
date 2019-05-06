@@ -238,8 +238,11 @@ svg.svg-dark .bottom {
 	display: block;
 	content: '';
 	position: absolute;
-	width: 60px;
-	height: 3px;
+	width: 4px;
+	height: 20px;
+	left: -12px;
+	top: -2px;
+	border-radius: 3px;
 	background: var(--heading-bg-color);
 	bottom: 0;
 }
