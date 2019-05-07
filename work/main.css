@@ -161,7 +161,7 @@ svg .bottom.right {
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
-	transition: color 650ms ease, background 650ms ease;
+	transition: background-color .25s ease-out, box-shadow .25s ease;
 	transition-delay: 100ms;
 }
 #theme-btn:hover::after{
