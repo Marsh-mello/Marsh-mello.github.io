@@ -449,7 +449,7 @@ svg.svg-dark .bottom {
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-	background-color: var(--card-bg-color);
+	background: var(--card-bg-color);
 	margin: 50px auto;
 	width: 90%;
 	max-width: 960px;
