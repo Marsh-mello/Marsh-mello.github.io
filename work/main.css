@@ -276,8 +276,8 @@ svg.svg-dark .bottom {
 }
 
 .card {
-	padding: 6px;
-	border-radius: 6px;
+	padding: 5px;
+	border-radius: 5px;
 	cursor: pointer;
 	display: flex;
 	flex-direction: column;
@@ -298,7 +298,7 @@ svg.svg-dark .bottom {
 	display: block;
 	width: 100%;
 	/*padding: 6px;*/
-	border-radius: 6px;
+	border-radius: 5px;
 	height: auto;
 	filter: grayscale(.1);
 }
