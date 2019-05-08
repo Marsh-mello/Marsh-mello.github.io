@@ -95,7 +95,7 @@ h6 {
 	--alert-bg-color: rgba(31, 30, 30, .95);
 	--text-color: #c2c8ce;
 	--tab-text-color: #3583fb;
-	--card-bg-color: linear-gradient(180deg, #434343 0%, black 100%);
+	--card-bg-color: #434343;
 	;
 	--svg-color: #fff;
 	--heading-bg-color: linear-gradient(135deg, #09c3d9, #3583fb);
