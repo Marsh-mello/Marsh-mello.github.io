@@ -95,7 +95,8 @@ h6 {
 	--alert-bg-color: rgba(31, 30, 30, .95);
 	--text-color: #c2c8ce;
 	--tab-text-color: #3583fb;
-	--card-bg-color: linear-gradient(180deg, #434343 0%, black 100%);;
+	--card-bg-color: linear-gradient(180deg, #434343 0%, black 100%);
+	;
 	--svg-color: #fff;
 	--heading-bg-color: linear-gradient(135deg, #09c3d9, #3583fb);
 }
@@ -164,10 +165,12 @@ svg .bottom.right {
 	transition: background-color .25s ease-out, box-shadow .25s ease;
 	transition-delay: 100ms;
 }
-#theme-btn:hover::after{
+
+#theme-btn:hover::after {
 	background-color: #ff710f;
 	color: #fff;
 }
+
 svg.svg-dark .top {
 	opacity: 0;
 }
@@ -182,10 +185,12 @@ svg.svg-dark .bottom {
 	border: 2px solid #3583fb;
 	color: #3583fb;
 }
-#theme-btn.dark:hover::after{
+
+#theme-btn.dark:hover::after {
 	background-color: #3583fb;
-	color: #fff;	
+	color: #fff;
 }
+
 .content {
 	position: absolute;
 	top: 80px;
@@ -421,7 +426,24 @@ svg.svg-dark .bottom {
 	width: 50%;
 	height: 100%;
 }
+
+
 /*弹窗*/
+
+@keyframes demo {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
 #alert-view {
 	position: fixed;
 	top: 0;
@@ -432,20 +454,24 @@ svg.svg-dark .bottom {
 	z-index: 99994;
 	overflow: auto;
 	display: none;
+	-webkit-animation: demo 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
 }
-#alert-view i{
+
+#alert-view i {
 	position: fixed;
 	background: url(btn_close_layer.png)0 0 no-repeat;
-	width:36px;
-	height:36px;
-	right:6%;
-	top:80px;
-	margin:-18px 0 0 -18px;
+	width: 36px;
+	height: 36px;
+	right: 6%;
+	top: 80px;
+	margin: -18px 0 0 -18px;
 }
-#alert-view i:hover{
+
+#alert-view i:hover {
 	background-position: 0 -50px;
 }
-.alert-view-img{
+
+.alert-view-img {
 	display: flex;
 	justify-content: center;
 	padding: 20px;
@@ -454,6 +480,7 @@ svg.svg-dark .bottom {
 	width: 90%;
 	max-width: 960px;
 }
+
 
 /*返回顶部*/
 
