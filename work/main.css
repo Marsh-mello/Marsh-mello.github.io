@@ -436,6 +436,7 @@ svg.svg-dark .bottom {
 		opacity: 0;
 	}
 	25% {
+		transform: scale(1.1);
 		opacity: 0.5;
 	}
 	100% {
@@ -454,7 +455,7 @@ svg.svg-dark .bottom {
 	z-index: 99994;
 	overflow: auto;
 	display: none;
-	-webkit-animation: demo 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	-webkit-animation: demo 0.5s ease-out forwards;
 }
 
 #alert-view i {
