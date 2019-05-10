@@ -43,14 +43,21 @@ $(function() {
 		imgs[i].onclick = function() {
 			var indexNum = this.index;;
 			$('.cut-left').click(function() {
-				var indexLeft = --indexNum;
-//				console.log(indexLeft);
-				var leftImg=cardPicture.eq(indexLeft).attr('src');
+				if(indexNum<1){
+					indexNum=imgs.length;
+				};
+				indexNum--;
+				console.log(indexNum)
+				var leftImg=cardPicture.eq(indexNum).attr('src');
 				alertImg.attr('src', leftImg);
 			});
 			$('.cut-right').click(function() {
-				var indexRight = ++indexNum;
-				var leftImg=cardPicture.eq(indexRight).attr('src');
+				if(indexNum==imgs.length-1){
+					indexNum=-1;
+				};
+				indexNum++;
+				console.log(indexNum)
+				var leftImg=cardPicture.eq(indexNum).attr('src');
 				alertImg.attr('src', leftImg);
 			})
 		}
