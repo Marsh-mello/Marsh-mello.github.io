@@ -11,8 +11,11 @@ $(function() {
 				var name = data.ObjectName.substring(titleNum1 + 1, titleNum2);
 				var content = data.ObjectName.substring(titleNum2 + 1, nameNum);
 				var url = data.Url;
+				var Id = data.id;
 				$("#sortable").append(
-					"<div data-tags='" + title + "'><a class='card'><img class='card__picture' src='" +
+					"<div data-tags='" + title + "'><a class='card'><img id='" +
+					Id +
+					"' class='card__picture' src='" +
 					url +
 					"'><div class='card-infos'><h2 class='card__title'>" +
 					name +
@@ -23,23 +26,43 @@ $(function() {
 		}
 
 	});
-//	弹窗
+	//	弹窗
 	var cardPicture = $('.card__picture');
 	var alertView = $('#alert-view');
 	var alertImg = $('.alert-view-img ');
+	var toogleImg = $('.cut a,.alert-view-img');
 	cardPicture.click(function() {
 		$('body').css('overflow', 'hidden');
 		alertView.css('display', 'block');
 		var viewImg = $(this).attr('src');
 		alertImg.attr('src', viewImg);
-	})
+	});
+	var imgs = document.querySelectorAll(".card__picture");
+	for(var i = 0; i < imgs.length; i++) {
+		imgs[i].index = i;
+		imgs[i].onclick = function() {
+			var indexNum = this.index;;
+			$('.cut-left').click(function() {
+				var indexLeft = --indexNum;
+//				console.log(indexLeft);
+				var leftImg=cardPicture.eq(indexLeft).attr('src');
+				alertImg.attr('src', leftImg);
+			});
+			$('.cut-right').click(function() {
+				var indexRight = ++indexNum;
+				var leftImg=cardPicture.eq(indexRight).attr('src');
+				alertImg.attr('src', leftImg);
+			})
+		}
+	}
+
 	$(document).mouseup(function(e) {
-		if(!alertImg.is(e.target) && alertImg.has(e.target).length === 0) { // Mark 1
+		if(!toogleImg.is(e.target) && toogleImg.has(e.target).length === 0) { // Mark 1
 			$('body').css('overflow', 'auto');
 			alertView.css('display', 'none');
 		}
 	});
-	
+
 	$.when(myajax).done(function() {
 		var $imgs = $('#sortable div'); // Store all images
 		var $buttons = $('.sortable__nav'); // Store buttons element
@@ -67,4 +90,4 @@ $(function() {
 		});
 		document.querySelector('#sortable').sortablejs();
 	});
-})
+});

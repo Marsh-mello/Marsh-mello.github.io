@@ -432,15 +432,12 @@ svg.svg-dark .bottom {
 
 @keyframes demo {
 	0% {
-		transform: scale(0);
 		opacity: 0;
 	}
 	25% {
-		transform: scale(1.1);
 		opacity: 0.5;
 	}
 	100% {
-		transform: scale(1);
 		opacity: 1;
 	}
 }
@@ -466,12 +463,41 @@ svg.svg-dark .bottom {
 	right: 7%;
 	top: 80px;
 	margin: -18px 0 0 -18px;
+	z-index: 99995;
 }
 
 #alert-view i:hover {
 	background-position: 0 -50px;
 }
+#alert-view .cut{
+	width: 1200px;
+}
+#alert-view .cut a {
+	width: 60px;
+	height: 150px;
+	margin-top: -75px;
+	background: url(pin_view_arrows.png);
+}
 
+.cut-left {
+	visibility: visible;
+	position: fixed;
+	left: 5%;
+	top: 50%;
+}
+.cut-left:hover{
+	background-position: 0 -170px!important;
+}
+
+.cut-right {
+	visibility: visible;
+	position: fixed;
+	right: 5%;
+	top: 50%;
+}
+.cut-right:hover{
+	background-position: -80px -170px!important;
+}
 .alert-view-img {
 	display: flex;
 	justify-content: center;
