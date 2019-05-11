@@ -47,7 +47,6 @@ $(function() {
 					indexNum=imgs.length;
 				};
 				indexNum--;
-				console.log(indexNum)
 				var leftImg=cardPicture.eq(indexNum).attr('src');
 				alertImg.attr('src', leftImg);
 			});
@@ -56,7 +55,6 @@ $(function() {
 					indexNum=-1;
 				};
 				indexNum++;
-				console.log(indexNum)
 				var leftImg=cardPicture.eq(indexNum).attr('src');
 				alertImg.attr('src', leftImg);
 			})

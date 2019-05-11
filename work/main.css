@@ -7,6 +7,7 @@
  :root {
 	--body-bg-color: #eee;
 	--container-bg-color: #f6f6f6;
+	--view-bg-color: rgba(246,246,246,0.8);
 	--container-shadow-color: 0 0 15px silver;
 	--alert-bg-color: rgba(229, 229, 229, .95);
 	--text-color: #333;
@@ -19,6 +20,7 @@
  :root[theme='dark'] {
 	--body-bg-color: #211f1f;
 	--container-bg-color: #181818;
+	--view-bg-color: rgba(24,24,24,0.8);
 	--container-shadow-color:  0 15px 12px rgba(0,0,0,0.12);
 	--alert-bg-color: rgba(31, 30, 30, .95);
 	--text-color: #c2c8ce;
@@ -450,7 +452,7 @@ svg.svg-dark .bottom {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: var(--container-bg-color);
+	background: var(--view-bg-color);
 	z-index: 99994;
 	overflow: auto;
 	display: none;
@@ -504,7 +506,7 @@ svg.svg-dark .bottom {
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-	background: var(--card-bg-color);
+	background: var(--container-bg-color);
 	margin: 50px auto;
 	width: 90%;
 	max-width: 960px;
