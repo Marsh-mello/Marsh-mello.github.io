@@ -602,6 +602,6 @@ svg.svg-dark .bottom {
 }
 
 .t-right-bar .t-bar-rocket {
-	background-image: url(../Individual/img/rocket_1.svg); //按钮图标
+	background-image: url(../../Individual/img/rocket_1.svg); //按钮图标
 	background-position: 19px center;
 }
