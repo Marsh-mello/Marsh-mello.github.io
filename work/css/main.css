@@ -7,7 +7,7 @@
  :root {
 	--body-bg-color: #eee;
 	--container-bg-color: #f6f6f6;
-	--view-bg-color: rgba(246,246,246,0.8);
+	--view-bg-color: rgba(246, 246, 246, 0.8);
 	--container-shadow-color: 0 0 15px silver;
 	--alert-bg-color: rgba(229, 229, 229, .95);
 	--text-color: #333;
@@ -20,8 +20,8 @@
  :root[theme='dark'] {
 	--body-bg-color: #211f1f;
 	--container-bg-color: #181818;
-	--view-bg-color: rgba(24,24,24,0.8);
-	--container-shadow-color:  0 15px 12px rgba(0,0,0,0.12);
+	--view-bg-color: rgba(24, 24, 24, 0.8);
+	--container-shadow-color: 0 15px 12px rgba(0, 0, 0, 0.12);
 	--alert-bg-color: rgba(31, 30, 30, .95);
 	--text-color: #c2c8ce;
 	--tab-text-color: #3583fb;
@@ -61,6 +61,7 @@ body {
 	background: var(--body-bg-color);
 	font: normal 300 1.4em / 1.2 'Open-sans', helvetica, sans-serif;
 }
+
 .container {
 	width: 100%;
 	max-width: 1100px;
@@ -242,7 +243,6 @@ svg.svg-dark .bottom {
 	color: #fff;
 }
 
-
 .heading {
 	width: 100%;
 	margin-top: 30px;
@@ -365,6 +365,48 @@ svg.svg-dark .bottom {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+@keyframes shade{
+	0%{
+		opacity: 0;
+		top: 5rem;
+		
+	}
+	20%{
+		opacity: .5;
+		
+	}
+	100%{
+		opacity: 1;
+		
+	}
+}
+.sortable__nav::after {
+	content: '';
+	display: block;
+	height: 50rem;
+	width: 50rem;
+	background: url(../img/shape-1.svg) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0rem;
+	right: 9rem;
+	z-index: -1;
+	-webkit-animation: shade 2s ease-out forwards;
+}
+
+#sortable::after {
+	content: '';
+	display: block;
+	height: 16rem;
+	width: 16rem;
+	background: url(../img/shape-2.svg) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -5rem;
+	left: -9rem;
+	z-index: -1;
+	-webkit-animation: shade 0.3s ease-out forwards;
+}
 
 .nav__link {
 	padding: 0 20px 4px;
@@ -461,7 +503,7 @@ svg.svg-dark .bottom {
 
 #alert-view i {
 	position: fixed;
-	background: url(btn_close_layer.png)0 0 no-repeat;
+	background: url(../img/btn_close_layer.png)0 0 no-repeat;
 	width: 36px;
 	height: 36px;
 	right: 7%;
@@ -473,14 +515,16 @@ svg.svg-dark .bottom {
 #alert-view i:hover {
 	background-position: 0 -50px;
 }
-#alert-view .cut{
+
+#alert-view .cut {
 	width: 1200px;
 }
+
 #alert-view .cut a {
 	width: 60px;
 	height: 150px;
 	margin-top: -75px;
-	background: url(pin_view_arrows.png);
+	background: url(../img/pin_view_arrows.png);
 }
 
 .cut-left {
@@ -489,7 +533,8 @@ svg.svg-dark .bottom {
 	left: 5%;
 	top: 50%;
 }
-.cut-left:hover{
+
+.cut-left:hover {
 	background-position: 0 -170px!important;
 }
 
@@ -499,9 +544,11 @@ svg.svg-dark .bottom {
 	right: 5%;
 	top: 50%;
 }
-.cut-right:hover{
+
+.cut-right:hover {
 	background-position: -80px -170px!important;
 }
+
 .alert-view-img {
 	display: flex;
 	justify-content: center;
