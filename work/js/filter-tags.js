@@ -31,9 +31,11 @@ $(function() {
 	var alertView = $('#alert-view');
 	var alertImg = $('.alert-view-img ');
 	var toogleImg = $('.cut a,.alert-view-img');
+	var main=$('.mian');
 	cardPicture.click(function() {
 		$('body').css('overflow', 'hidden');
 		alertView.css('display', 'block');
+		main.css('filter','blur(10px)');
 		var viewImg = $(this).attr('src');
 		alertImg.attr('src', viewImg);
 	});
@@ -65,6 +67,7 @@ $(function() {
 		if(!toogleImg.is(e.target) && toogleImg.has(e.target).length === 0) { // Mark 1
 			$('body').css('overflow', 'auto');
 			alertView.css('display', 'none');
+			main.css('filter','blur(0)');
 		}
 	});
 
