@@ -109,7 +109,7 @@ h4 {
 	margin-left: 1.2rem;
 }
 
-h6 {
+h5 {
 	padding-left: 2rem;
 	margin: 0;
 }
@@ -249,7 +249,7 @@ svg.svg-dark .bottom {
 	margin-top: 30px;
 	margin-left: 1rem;
 	font-weight: 900;
-	font-size: 1.618rem;
+	font-size: 1.318rem;
 	text-transform: uppercase;
 	letter-spacing: .1ch;
 	line-height: 1;
@@ -265,7 +265,7 @@ svg.svg-dark .bottom {
 	width: 4px;
 	height: 20px;
 	left: -12px;
-	top: 3px;
+	top: 0px;
 	border-radius: 3px;
 	background: var(--heading-bg-color);
 	bottom: 0;
@@ -274,6 +274,8 @@ svg.svg-dark .bottom {
 .heading-basic li {
 	color: var(--text-color);
 	margin: 10px;
+	font-size: 14px;
+	font-weight: 500;
 }
 
 .heading-title {
@@ -324,7 +326,7 @@ svg.svg-dark .bottom {
 
 .card__title {
 	font-family: 'Hind';
-	font-size: 0.8rem;
+	font-size: 12px;
 	font-weight: 600;
 	line-height: 1.4;
 	margin: 0 0 10px;
@@ -332,7 +334,7 @@ svg.svg-dark .bottom {
 
 .card__text {
 	font-family: 'Hind';
-	font-size: 1rem;
+	font-size: 14px;
 	border-top: 1px dashed #d4d4d4;
 	padding-top: 10px;
 	margin: 0;
