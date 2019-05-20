@@ -324,7 +324,7 @@ svg.svg-dark .bottom {
 
 .card__title {
 	font-family: 'Hind';
-	font-size: 1.4rem;
+	font-size: 1rem;
 	font-weight: 600;
 	line-height: 1.4;
 	margin: 0 0 10px;
@@ -495,7 +495,7 @@ svg.svg-dark .bottom {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: var(--view-bg-color);
+	/*background: var(--view-bg-color);*/
 	z-index: 99994;
 	overflow: auto;
 	display: none;
@@ -553,7 +553,6 @@ svg.svg-dark .bottom {
 .alert-view-img {
 	display: flex;
 	justify-content: center;
-	padding: 20px;
 	background: var(--container-bg-color);
 	margin: 50px auto;
 	width: 90%;

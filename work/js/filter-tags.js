@@ -31,7 +31,7 @@ $(function() {
 	var alertView = $('#alert-view');
 	var alertImg = $('.alert-view-img ');
 	var toogleImg = $('.cut a,.alert-view-img');
-	var main=$('.mian');
+	var main=$('.main');
 	cardPicture.click(function() {
 		$('body').css('overflow', 'hidden');
 		alertView.css('display', 'block');
