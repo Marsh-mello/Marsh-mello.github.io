@@ -2,122 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="850c8cbb-5d6b-47e0-9c68-53bde425f8a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/404/404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/css/img-demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/css/img-demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/css/loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/css/loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/css/popModal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/css/popModal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/css/tq.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/css/tq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/index/imgList.html" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/index/imgList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/index/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/index/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/index/json.html" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/index/json.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/index/novelList.html" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/index/novelList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/index/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/index/resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/index/tianqi.html" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/index/tianqi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/TweenMax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/TweenMax.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/imagesloaded.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/json.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/module/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/module/dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/module/formate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/module/formate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/module/mier.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/module/mier.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/module/tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/module/tool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/new_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/new_file.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/popModal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/popModal.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/skycons.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/skycons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/top.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/js/tq.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/js/tq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/css/layui.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/css/modules/code.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/flow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/laydate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/layedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/laypage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/rate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/lay/modules/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/layui.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/layui/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/lib/admin.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/lib/admin.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/lib/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/lib/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/lib/extend/echartsTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/lib/extend/echartsTheme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/lib/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/lib/view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Individual/system/theme.html" beforeDir="false" afterPath="$PROJECT_DIR$/Individual/system/theme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/ae/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ae/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae/js/lottie.js" beforeDir="false" afterPath="$PROJECT_DIR$/ae/js/lottie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boat/boat.css" beforeDir="false" afterPath="$PROJECT_DIR$/boat/boat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boat/boat.html" beforeDir="false" afterPath="$PROJECT_DIR$/boat/boat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candle/candle.css" beforeDir="false" afterPath="$PROJECT_DIR$/candle/candle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candle/candle.html" beforeDir="false" afterPath="$PROJECT_DIR$/candle/candle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/card/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/card/card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/clock.css" beforeDir="false" afterPath="$PROJECT_DIR$/clock/clock.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/clock.html" beforeDir="false" afterPath="$PROJECT_DIR$/clock/clock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/cut.css" beforeDir="false" afterPath="$PROJECT_DIR$/cut/cut.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut/cut.html" beforeDir="false" afterPath="$PROJECT_DIR$/cut/cut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deform/deform.css" beforeDir="false" afterPath="$PROJECT_DIR$/deform/deform.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deform/deform.html" beforeDir="false" afterPath="$PROJECT_DIR$/deform/deform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echarts/css/new_file.css" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/css/new_file.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echarts/echarts.html" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/echarts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echarts/js/myEchartj.js" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/js/myEchartj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoji/emoji.css" beforeDir="false" afterPath="$PROJECT_DIR$/emoji/emoji.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoji/emoji.html" beforeDir="false" afterPath="$PROJECT_DIR$/emoji/emoji.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firework/firework.html" beforeDir="false" afterPath="$PROJECT_DIR$/firework/firework.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/follow/follow.css" beforeDir="false" afterPath="$PROJECT_DIR$/follow/follow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/follow/follow.html" beforeDir="false" afterPath="$PROJECT_DIR$/follow/follow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hourglass/hourglass.css" beforeDir="false" afterPath="$PROJECT_DIR$/hourglass/hourglass.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hourglass/hourglass.html" beforeDir="false" afterPath="$PROJECT_DIR$/hourglass/hourglass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loading/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/loading/loading.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loading/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/loading/loading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/move/move.css" beforeDir="false" afterPath="$PROJECT_DIR$/move/move.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/move/move.html" beforeDir="false" afterPath="$PROJECT_DIR$/move/move.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-bick/.project" beforeDir="false" afterPath="$PROJECT_DIR$/music-bick/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-bick/BX_bick_biking-without_marks.html" beforeDir="false" afterPath="$PROJECT_DIR$/music-bick/BX_bick_biking-without_marks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-bick/BX_bick_biking-without_marks_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/music-bick/BX_bick_biking-without_marks_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/path/path.css" beforeDir="false" afterPath="$PROJECT_DIR$/path/path.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/path/path.html" beforeDir="false" afterPath="$PROJECT_DIR$/path/path.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/robot.css" beforeDir="false" afterPath="$PROJECT_DIR$/robot/robot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/robot.html" beforeDir="false" afterPath="$PROJECT_DIR$/robot/robot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slides/slides.css" beforeDir="false" afterPath="$PROJECT_DIR$/slides/slides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slides/slides.html" beforeDir="false" afterPath="$PROJECT_DIR$/slides/slides.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/square/square.css" beforeDir="false" afterPath="$PROJECT_DIR$/square/square.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/square/square.html" beforeDir="false" afterPath="$PROJECT_DIR$/square/square.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tab/tab.css" beforeDir="false" afterPath="$PROJECT_DIR$/tab/tab.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tab/tab.html" beforeDir="false" afterPath="$PROJECT_DIR$/tab/tab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/work/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/js/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/js/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/js/filter-tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/js/filter-tags.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/js/sortable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/work/js/sortable.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/workDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/workDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/gridmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gridmenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -129,12 +21,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="75" selection-start-line="5" selection-start-column="28" selection-end-line="6" selection-end-column="75" />
+            <state relative-caret-position="165">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/gridmenu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="182" column="33" selection-start-line="182" selection-start-column="33" selection-end-line="182" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -144,8 +45,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/gridmenu.css" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="66" />
+    <option name="y" value="89" />
     <option name="width" value="1920" />
     <option name="height" value="991" />
   </component>
@@ -162,6 +72,11 @@
               <item name="Marsh-mello.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Marsh-mello.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Marsh-mello.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Marsh-mello.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -174,6 +89,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,19 +122,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37000" />
+    <option name="totallyTimeSpent" value="2320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="991" extended-state="0" />
+    <frame x="66" y="89" width="1920" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -222,6 +138,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -231,10 +151,32 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="75" selection-start-line="5" selection-start-column="28" selection-end-line="6" selection-end-column="75" />
+        <state relative-caret-position="165">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/gridmenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="182" column="33" selection-start-line="182" selection-start-column="33" selection-end-line="182" selection-end-column="33" />
         </state>
       </provider>
     </entry>
