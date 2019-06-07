@@ -26,7 +26,7 @@
         type: 'video/mp4'
       },
       {
-        src: 'night.webm',
+        src: 'https://marshmello.oss-cn-hangzhou.aliyuncs.com/img/vidoe.png',
         type: 'video/webm;codecs="vp8, vorbis"'
       }
     ],
